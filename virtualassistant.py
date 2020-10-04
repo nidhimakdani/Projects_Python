@@ -14,7 +14,7 @@ while True:
         text = r.recognize_google(audio_data)
 
     try:
-        app_id = "3EGJQ6-2K4Q5LGVVY"
+        app_id = "#add your api id here"
         client = wolframalpha.Client(app_id)
 
         result = client.query(text)
