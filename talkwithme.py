@@ -7,7 +7,7 @@ speak = Dispatch("SAPI.SpVoice")
 while True:
     data = input("Ask: ")
     try:
-        app_id = "3EGJQ6-2K4Q5LGVVY"
+        app_id = "#Use Your News Api Key here   #Read it"
         client = wolframalpha.Client(app_id)
 
         result = client.query(data)
